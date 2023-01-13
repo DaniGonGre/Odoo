@@ -32,7 +32,7 @@ connection para comprobar si funciona, si es así aplicamos los cambios.
 
 ![Captura test de conexión](https://user-images.githubusercontent.com/91198318/212316885-cec47e95-c041-473a-8357-d24bc0fbb2de.png)
 
-Desde la terminal con los siguientes comandos podemos comprobar varias cosas:
+Debemos comprobar que el puerto utilizado, en nuestro caso el ```5432```, esté libre y no haya ningún servicio ejecutándose en él. Para ello podemos utilizar los siguientes comandos:
 
 ```$ ps aux``` : Una variante del comando ps que muestra información detallada sobre todos los procesos en el sistema. La opción "a" incluye todos los procesos del sistema, no solo los que son propiedad del usuario actual. La opción "u" muestra información de usuario para cada proceso, como el tiempo de CPU y el uso de memoria. Y la opción "x" incluye procesos que no están asociados con un terminal.
 
