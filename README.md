@@ -21,7 +21,9 @@ services:
 
 Después en la terminal del IDE escribimos el siguiente comando para iniciar el servicio:
 
-´´´$ docker-compose up´´´
+```
+$ docker-compose up
+```
 
 Para conectar el proyecto a postgres vamos a Database(PyCharm Professional Edition) pulsamos el + 
 --> Data Source --> PostgreSQL. Se nos abrirá una pestaña en la que debemos añadir el puerto correspondiente 
@@ -32,11 +34,11 @@ connection para comprobar si funciona, si es así aplicamos los cambios.
 
 Desde la terminal con los siguientes comandos podemos comprobar varias cosas:
 
-´´´$ ps aux´´´ : Una variante del comando ps que muestra información detallada sobre todos los procesos en el sistema. La opción "a" incluye todos los procesos del sistema, no solo los que son propiedad del usuario actual. La opción "u" muestra información de usuario para cada proceso, como el tiempo de CPU y el uso de memoria. Y la opción "x" incluye procesos que no están asociados con un terminal.
+```$ ps aux``` : Una variante del comando ps que muestra información detallada sobre todos los procesos en el sistema. La opción "a" incluye todos los procesos del sistema, no solo los que son propiedad del usuario actual. La opción "u" muestra información de usuario para cada proceso, como el tiempo de CPU y el uso de memoria. Y la opción "x" incluye procesos que no están asociados con un terminal.
 
-´´´$ netstat´´´ : Nos muestra información sobre las conexiones de red y las estadísticas de protocolo de un sistema.
+```$ netstat``` : Nos muestra información sobre las conexiones de red y las estadísticas de protocolo de un sistema.
 
-´´´$ service stop´´´ o ´´´$ service start´´´ : Se utilizan para controlar el estado de los servicios que se están ejecutando en el sistema, el primero detiene un servicio específico y el segundo lo inicia.
+```$ service stop``` o ```$ service start``` : Se utilizan para controlar el estado de los servicios que se están ejecutando en el sistema, el primero detiene un servicio específico y el segundo lo inicia.
 
 
 
